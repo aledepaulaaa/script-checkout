@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Checkout</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        input[type="text"] {
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: aquamarine;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #checkout-link {
+            background-color: aquamarine;
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+    </style>
+    <div>
+        <label for="tracking-input">Informe qualquer coisa:</label>
+        <br>
+        <input type="text" id="tracking-input">
+        <button id="checkout-button" onclick="updateCheckoutLink()">Checkout</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
